@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5b6577;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Login Styles */
+.login-container {
+  text-align: center;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  margin: 10px auto;
+  display: block;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  text-align: center;
+}
+
+/* Admin, Editor, Author Panel Styles */
+.panel {
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #007bff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  background-color: #0056b3;
+}
