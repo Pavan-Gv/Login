@@ -7,7 +7,7 @@ const Login = ({ onLogin }) => {
   const navigate = useNavigate();
 
   const handleLogin = async () => {
-    const response = await fetch('/db.json');
+    const response = await fetch('/Login/db.json');
     const data = await response.json();
     const user = data.users.find(u => u.username === username && u.password === password);
     if (user) {
